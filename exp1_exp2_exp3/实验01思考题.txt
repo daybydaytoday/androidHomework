@@ -1,0 +1,5 @@
+实验题目：Android环境和SDK配置
+1. 请结合android的体系结构说明，为什么Android选择Java作为上层应用的开发语言。
+2. 请说明Android Studio和 Android SDK的关系。
+3. AVD Manager， SDK Mannager, DDMS分别是干什么的？
+4. 请结合HelloWorld程序说明Android中是如何基于MVC模式进行开发的？

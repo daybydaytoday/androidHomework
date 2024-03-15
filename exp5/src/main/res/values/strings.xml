@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">exp5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">ID:</string>
+    <string name="tel">TEL:</string>
+    <string name="name">NAME:</string>
+    <string name="input">Stu Info is inputting…</string>
+    <string name="note">Stu note…</string>
+</resources>

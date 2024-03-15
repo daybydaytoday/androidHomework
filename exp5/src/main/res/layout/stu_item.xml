@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/head"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/id_item_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/id"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/idshow"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/name_item_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/name"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/nameshow"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tel_item_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tel"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/telshow"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/del"
+                android:layout_marginTop="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@mipmap/del" />
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@mipmap/call" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

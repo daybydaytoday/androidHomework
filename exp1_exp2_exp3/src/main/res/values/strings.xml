@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HomeWork</string>
+    <string name="text_view_start_text">准备开始回答问题了吗?</string>
+    <string name="pre_button">pre</string>
+    <string name="next_button">next</string>
+    <string name="yes_button">yes</string>
+    <string name="no_button">no</string>
+    <string name="hint">输入你的答案......</string>
+    <string name="questions">问题......</string>
+    <string name="submit">submit</string>
+    <string name="score">score</string>
+    <string name="restart">restart</string>
+    <string name="quit">quit</string>
+</resources>

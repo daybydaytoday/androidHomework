@@ -1,0 +1,4 @@
+1. 实现CiriminalIntent的Fragment的竖屏界面
+2. 实现CiriminalIntent的Fragment的横屏界面
+3. 在Activity中加载一个Fragment的基本流程
+4. 使用Fragment设计UI有哪些好处？
