@@ -6,5 +6,11 @@
     <string name="tel">TEL:</string>
     <string name="name">NAME:</string>
     <string name="input">Stu Info is inputting…</string>
-    <string name="note">Stu note…</string>
+    <string name="note">My Stu note …</string>
+    <string name="fromDateBase">DateBase</string>
+    <string name="add">add</string>
+    <string name="load">load</string>
+    <string name="local">local</string>
+    <string name="save">save</string>
+
 </resources>

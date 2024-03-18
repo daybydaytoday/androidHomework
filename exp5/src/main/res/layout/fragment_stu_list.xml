@@ -41,10 +41,11 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="333dp"
-            android:layout_height="506dp"
+            android:layout_height="470dp"
             android:layout_marginTop="15dp"
+            android:layout_marginBottom="100dp"
             android:background="#FDFDF9"
-            app:layout_constraintBottom_toTopOf="@+id/add"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
@@ -52,38 +53,82 @@
 
         <Button
             android:id="@+id/add"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginBottom="12dp"
-            android:background="@drawable/add2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="9dp"
+
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/add2"
+            android:text="@string/add"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.934"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/upload"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/upload"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/upload"
+            android:text="@string/load"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/add"
-            app:layout_constraintHorizontal_bias="0.098"
+            app:layout_constraintHorizontal_bias="0.029"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/recyclerView"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.965" />
 
         <Button
             android:id="@+id/download"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableTop="@drawable/download"
+            android:layout_width="70dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="1dp"
             android:background="#00FFFFFF"
+            android:drawableTop="@drawable/download"
+            android:text="@string/fromDateBase"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/add"
             app:layout_constraintStart_toEndOf="@+id/upload"
             app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
+
+        <Button
+            android:id="@+id/local"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+
+            android:layout_marginBottom="8dp"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/database"
+            android:text="@string/local"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/add"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/download"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="8dp"
+
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/save"
+            android:text="@string/save"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/add"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toEndOf="@+id/local"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+            app:layout_constraintVertical_bias="1.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

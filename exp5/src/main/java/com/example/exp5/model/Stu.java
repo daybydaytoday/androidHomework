@@ -5,6 +5,16 @@ public class Stu {
     private String tel;
     private String id;
     private String img;
+    private boolean isUpdate;
+
+    public boolean isUpdate() {
+        // 返回是否更新的标志
+        return isUpdate;
+    }
+
+    public void setUpdate(boolean update) {
+        isUpdate = update;
+    }
 
     public Stu() {
     }
